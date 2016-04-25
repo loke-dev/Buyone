@@ -1,8 +1,7 @@
-[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](http://buyone.se) 
-
 # Buyone
 Välkommen till mitt projekt Buyone i kursen 1dv430!
 
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](http://buyone.se) 
 
 
 
