@@ -1,5 +1,5 @@
 <?php
-namespace buyone\first\Controller\Index;
+namespace Ves\HelloWorld\Controller\Index;
 
 class Index extends \Magento\Framework\App\Action\Action {
     /** @var  \Magento\Framework\View\Result\Page */
@@ -19,7 +19,7 @@ class Index extends \Magento\Framework\App\Action\Action {
     public function execute()
     {
     	$resultPage = $this->resultPageFactory->create();
-    	$resultPage->getConfig()->getTitle()->prepend(__('Buyone first'));
+    	$resultPage->getConfig()->getTitle()->prepend(__('Ves HelloWorld'));
     	return $resultPage;
     }
 }
