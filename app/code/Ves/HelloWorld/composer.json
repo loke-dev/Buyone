@@ -5,11 +5,8 @@
         "php": "~5.5.0|~5.6.0",
         "magento/magento-composer-installer": "*"
     },
-    "suggest": {
-      "magento/module-webapi": "1.0.0-beta"
-    },
     "type": "magento2-module",
-     "version": "1.0.0",
+     "version": "100.0.0",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -19,5 +16,13 @@
         "psr-4": {
             "Magento\\CatalogImportExport\\": ""
         }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Ves/HelloWorld"
+            ]
+        ]
     }
     }
