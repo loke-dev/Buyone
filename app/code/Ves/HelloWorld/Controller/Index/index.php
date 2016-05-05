@@ -20,6 +20,7 @@ class Index extends \Magento\Framework\App\Action\Action {
     {
     	$resultPage = $this->resultPageFactory->create();
     	$resultPage->getConfig()->getTitle()->prepend(__('Ves HelloWorld'));
+        echo "Hello World!";
     	return $resultPage;
     }
 }
