@@ -1,3 +1,14 @@
-<div class="fb-comments" data-href="http://buyone.se/helloworld/index/index" data-numposts="5"></div>
+<div id="fb-root"></div>
+<script type="text/javascript">(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
-<h1 style="color:#57f13d"> Testing Facebook comments </h2>
+
+
+<div class="fb-comments" data-href="<?php echo $this->getURL() ?>" data-numposts="5"></div>
+
+<h1 style="color:#5c3df1"> Testing Facebook comments </h2>

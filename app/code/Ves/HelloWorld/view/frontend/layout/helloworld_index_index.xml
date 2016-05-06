@@ -4,6 +4,8 @@
 		<referenceContainer name="content">
 			<block class="Ves\HelloWorld\Block\HelloWorld" name="ves_helloworld" template="helloworld.phtml">
 			</block>
+			<!-- <block class="Ves\HelloWorld\Block\HelloWorld" name="async-init" template="async-init.phtml"/>
+			</block> -->
 		</referenceContainer>
 	</body>
 </page>
