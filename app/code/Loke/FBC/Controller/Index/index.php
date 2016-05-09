@@ -1,5 +1,5 @@
 <?php
-namespace Loke\FacebookComments\Controller\Index;
+namespace Loke\FBC\Controller\FBC;
 
 class Index extends \Magento\Framework\App\Action\Action {
     /** @var  \Magento\Framework\View\Result\Page */
@@ -19,7 +19,7 @@ class Index extends \Magento\Framework\App\Action\Action {
     public function execute()
     {
     	$resultPage = $this->resultPageFactory->create();
-    	$resultPage->getConfig()->getTitle()->prepend(__('LOKE TEMP'));
+    	$resultPage->getConfig()->getTitle()->prepend(__('Loke_FBC'));
     	return $resultPage;
     }
 }
