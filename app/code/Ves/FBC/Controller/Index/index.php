@@ -1,5 +1,5 @@
 <?php
-namespace Loke\FBC\Controller\FBC;
+namespace Ves\FBC\Controller\Index;
 
 class Index extends \Magento\Framework\App\Action\Action {
     /** @var  \Magento\Framework\View\Result\Page */
@@ -19,7 +19,7 @@ class Index extends \Magento\Framework\App\Action\Action {
     public function execute()
     {
     	$resultPage = $this->resultPageFactory->create();
-    	$resultPage->getConfig()->getTitle()->prepend(__('Loke_FBC'));
+    	$resultPage->getConfig()->getTitle()->prepend(__('Ves FBC'));
     	return $resultPage;
     }
 }

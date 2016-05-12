@@ -2,8 +2,8 @@
 
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/App/etc/routes.xsd">
     <router id="standard">
-        <route id="FBC" frontName="FBC">
-            <module name="Loke_FBC" />
+        <route id="comments" frontName="comments">
+            <module name="Loke_comments" />
         </route>
     </router>
 </config>

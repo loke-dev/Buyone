@@ -1,5 +1,5 @@
 {
-    "name": "Loke/FBC",
+    "name": "Loke/comments",
     "description": "A module that implements Facebook comments",
     "require": {
         "php": "~5.5.0|~5.6.0",
@@ -21,7 +21,7 @@
         "map": [
             [
                 "*",
-                "Loke/FBC"
+                "Loke/comments"
             ]
         ]
     }

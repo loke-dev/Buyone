@@ -1,5 +1,5 @@
 <?php
-namespace Loke\FBC\Block;
+namespace Ves\FBC\Block;
 
 class FBC extends \Magento\Framework\View\Element\Template
 {
