@@ -3,4 +3,29 @@
 
 <h2 style="color:#9c1b1b"> Hi there! </h2>
 
-<?php echo $this->getURL() ?>
+<p><?php echo $this->getURL() ?></p>
+
+
+<p>
+<?php
+
+echo $this->getBaseUrl(\Magento\Framework\UrlInterface::URL_TYPE_MEDIA)
+
+?>
+</p>
+
+
+<p>
+    <?php echo $block->getUrl('hello/test'); ?>
+
+</p>
+<p>
+    <?php echo $block->getUrl(); ?>
+
+</p>
+<p>
+    <?php echo $block->getBaseUrl(); ?>
+
+</p>
+
+
