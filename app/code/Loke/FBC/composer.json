@@ -1,28 +1,21 @@
 {
-    "name": "Loke/FBC",
-    "description": "My first test module for Magento 2",
-    "require": {
-        "php": "~5.5.0|~5.6.0",
-        "magento/magento-composer-installer": "*"
-    },
-    "type": "magento2-module",
-     "version": "100.0.0",
-    "license": [
-        "OSL-3.0",
-        "AFL-3.0"
-    ],
-    "autoload": {
-        "files": [ "registration.php" ],
-        "psr-4": {
-            "Magento\\CatalogImportExport\\": ""
-        }
-    },
-    "extra": {
-        "map": [
-            [
-                "*",
-                "Loke/FBC"
-            ]
-        ]
+  "name": "Loke/FBC",
+  "description": "A Magento 2 module that adds facebook comments to the product pages",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/framework": "~100.0",
+    "magento/module-catalog": "~100.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Magento\\FBC\\": ""
     }
-    }
+  }
+}
