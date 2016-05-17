@@ -11,11 +11,16 @@
             </container>
 
             <!--Message area-->
-            <!--<container name="modme" htmlTag="div" htmlClass="page messages" after="product.info.main">-->
-                <!--<block class="Magento\Framework\View\Element\Template" name="product.info.media.image"-->
+            <!--<container htmlTag="div" htmlClass="message-success success message">-->
+                <!--<block class="Magento\Framework\View\Element\Template"-->
                        <!--template="Magento_SampleModifyContent::catalog_success_message.phtml">-->
                 <!--</block>-->
             <!--</container>-->
         </referenceContainer>
     </body>
 </page>
+
+
+
+
+
