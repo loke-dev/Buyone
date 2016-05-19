@@ -15,4 +15,26 @@
 </script>
 
 <div class="fb-comments" data-href="<?php echo $this->getURL() ?>" data-numposts="5" data-width="100%"></div>
-<?php echo $this->getURL() ?>
+
+<?php echo $this->getUrl() ?>
+
+<?php
+
+$myBlock = \Magento\Framework\App\ObjectManager::getInstance()->get('Loke\FBC\Block\FBC');
+
+// print current category data
+if ($currentCategory = $myBlock->getCurrentCategory()) {
+        echo $currentCategory->getName() . '<br />';
+        echo $currentCategory->getUrl() . '<br />';
+}
+
+// print current product data
+if ($currentProduct = $myBlock->getCurrentProduct()) {
+        echo $currentProduct->getName() . '<br />';
+        echo $currentProduct->getSku() . '<br />';
+        echo $currentProduct->getFinalPrice() . '<br />';
+        echo $currentProduct->getProductUrl() . '<br />';
+        print_r ($currentProduct->getCategoryIds()) . '<br />';
+}
+
+?>
