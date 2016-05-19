@@ -14,13 +14,18 @@
         }(document, 'script', 'facebook-jssdk'));
 </script>
 
-<div class="fb-comments" data-href="<?php echo $this->getURL() ?>" data-numposts="5" data-width="100%"></div>
+<div class="fb-comments" data-href="<?php
+
+$myBlock = \Magento\Framework\App\ObjectManager::getInstance()->get('Loke\FBC\Block\FBC');
+
+if ($currentProduct = $myBlock->getCurrentProduct()) {
+        echo $currentProduct->getProductUrl();
+}
+?>" data-numposts="5" data-width="100%"></div>
 
 <?php echo $this->getUrl() ?>
 
 <?php
-
-$myBlock = \Magento\Framework\App\ObjectManager::getInstance()->get('Loke\FBC\Block\FBC');
 
 // print current category data
 if ($currentCategory = $myBlock->getCurrentCategory()) {
