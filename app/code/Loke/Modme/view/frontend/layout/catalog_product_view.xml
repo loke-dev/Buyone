@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<page layout="2columns-right" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <!--Changes the product image-->
+
+            <!--<container name="product.info.media" htmlTag="div" htmlClass="product media" after="product.info.main">-->
+                <!--<block class="Magento\Framework\View\Element\Template" name="product.info.media.image"-->
+                       <!--template="Magento_SampleModifyContent::catalog_product_view_image.phtml">-->
+                <!--</block>-->
+            <!--</container>-->
+
+            <!--Message area-->
+
+            <!--<container htmlTag="div" htmlClass="message-success success message">-->
+                <!--<block class="Magento\Framework\View\Element\Template"-->
+                       <!--template="Magento_SampleModifyContent::catalog_success_message.phtml">-->
+                <!--</block>-->
+            <!--</container>-->
+        </referenceContainer>
+    </body>
+</page>
+
+
+
+
+

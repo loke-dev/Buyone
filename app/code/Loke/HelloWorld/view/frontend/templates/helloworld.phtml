@@ -1,0 +1,31 @@
+<h1 style="color:#3df1d6"> Hello World!!!! </h1>
+
+
+<h2 style="color:#9c1b1b"> Hi there! </h2>
+
+<p><?php echo $this->getURL() ?></p>
+
+
+<p>
+<?php
+
+echo $this->getBaseUrl(\Magento\Framework\UrlInterface::URL_TYPE_MEDIA)
+
+?>
+</p>
+
+
+<p>
+    <?php echo $block->getUrl('hello/test'); ?>
+
+</p>
+<p>
+    <?php echo $block->getUrl(); ?>
+
+</p>
+<p>
+    <?php echo $block->getBaseUrl(); ?>
+
+</p>
+
+
