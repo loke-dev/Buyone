@@ -8,10 +8,31 @@
 
 Välkommen till mitt projekt Buyone i kursen 1dv430!
 
+## Webbplats
+
+Du kan nå webbplatsen på följande länk: [https://buyone.se/admin](https://buyone.se "buyone.se")
 
 
+## Admingränssnitt
+
+För att komma åt admingränssnittet använd följande länk: [https://buyone.se/admin](https://buyone.se/admin "buyone.se/admin")
+
+Använd sedan inloggningsuppgifterna som du har fått för att logga in.
 
 
+##  Lokal miljö
+
+Börja med att installera Magento 2 med senaste versionen, ett alternativ på installation är att använda Bitnami som du når genom följande länk: [https://bitnami.com/stack/magento](https://bitnami.com/stack/magento "bitnami") och välj "local install".
+
+Klona sedan Github repositoriet till Magento's installation mapp och kör följande kommandon:
+
+Ta dig till bin mappen i magento installation mappen genom följande kommando:
+
+    cd <Magento installation folder>/bin
+
+Och kör följande kommando för att installera de moduler som du precis klonat ner:
+
+    ./magento setup:upgrade
 
 
 
