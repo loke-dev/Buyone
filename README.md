@@ -10,7 +10,7 @@ Välkommen till mitt projekt Buyone i kursen 1dv430!
 
 ## Webbplats
 
-Du kan nå webbplatsen på följande länk: [https://buyone.se/admin](https://buyone.se "buyone.se")
+Du kan nå webbplatsen på följande länk: [https://buyone.se](https://buyone.se "buyone.se")
 
 
 ## Admingränssnitt
