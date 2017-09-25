@@ -6,7 +6,7 @@
 [![Wiki](https://img.shields.io/badge/wiki-view-orange.svg?maxAge=2592000)](https://github.com/1dv430/lc222ak-project/wiki)
 
 
-Välkommen till mitt projekt Buyone i kursen 1dv430!
+Välkommen till mitt projekt Buyone!
 
 ## Webbplats
 
